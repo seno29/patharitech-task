@@ -1,0 +1,85 @@
+.outer{
+  background-color: rgb(233, 233, 233);
+}
+.inner{
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+}
+.heading{
+  margin-top: 25px;
+  color: rgb(55, 0, 128);
+  font-size: 18px;
+}
+
+.full-width{
+  width: 100%;
+}
+
+p{
+  margin: 0;
+}
+
+.page-title{
+  margin: 25px 0px 0px 25px;
+  color: rgb(55, 0, 128);
+  font-size: 18px;
+}
+
+.store-title{
+  color: rgb(55, 0, 128);
+}
+.address{
+  color: grey;
+  font-size: 14px;
+}
+
+.date{
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.invite-btn{
+  background-color: rgb(66, 43, 148) ;
+  color: white;
+}
+
+.subtitle{
+  color: grey;
+  font-size: 12px;
+  margin-top: 10px;
+}
+mat-icon{
+  color: black;
+  font-size: 20px;
+}
+
+.info, .remarks-input{
+  margin-top: 10px;
+}
+input[type="text"]:focus{
+  box-shadow: none;
+  border: 1px solid #422b94;
+}
+
+.list ul{
+  padding-left: 10px;
+  margin-left: 10px; 
+}
+
+.flat-btn{
+  border: 1px solid #422b94;
+  color: rgb(65, 42, 146);
+  margin: 10px;
+}
+
+.flat-btn:hover{
+  background-color: rgb(65, 42, 146);
+  color: white;
+}
+
+button:focus{
+  outline:none;
+  box-shadow: none;
+}
